@@ -17,7 +17,7 @@ export class HeroesComponent implements OnInit {
   }
 
   verHeroe(idx: number){
-    this._router.navigate(['/heroe', idx])
+    this._router.navigate(['/heroe', idx]);
   }
 
 }
